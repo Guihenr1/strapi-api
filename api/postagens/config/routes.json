@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/postagens",
+      "handler": "postagens.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/postagens/count",
+      "handler": "postagens.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/postagens/:id",
+      "handler": "postagens.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/postagens",
+      "handler": "postagens.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/postagens/:id",
+      "handler": "postagens.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/postagens/:id",
+      "handler": "postagens.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
